@@ -1,0 +1,103 @@
+body{
+    background-color: #ff74d4;
+    font-family: cursive;
+    
+    
+}
+
+
+.medium-pizza{
+    background-color: #cf5d6e ;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid brown;
+    font-style: italic;
+
+    
+ }
+
+
+.large-pizza{
+    background-color: #df9866 ;
+    border-radius: 1em;
+    border:1px solid brown;
+    font-style: italic;
+    margin: 1em;
+    padding: 1em;
+    font-size: medium;
+}
+
+.small-pizza{
+    background-color: #e76851;
+    border-radius: 1em;
+   border: 1px solid brown;
+    margin: 1em;
+    padding: 1em;
+    font-style: italic;
+}
+
+.contacts{
+    background-color: #b86648 ;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid brown;
+    font-style: italic;
+}
+
+@media(min-width: 768px){
+ .pizza{
+    display: flex;
+  }
+}
+
+@media(min-width: 900px){
+    .pizza{
+    display : flex;
+    }  
+}
+/*@media(min-width: 1200px){
+    .pizza{
+        display: flex;
+    }    
+}*/
+
+@media(min-width: 1024px){
+    .pizza{
+        display: flex;
+    }
+}
+
+@media(min-width: 768px){
+    body{
+        background-color: bisque;
+    }
+}
+
+
+@media(min-width: 900px){
+    body{
+        background-color: rgb(48, 168, 152);
+    }
+}
+
+@media(min-width: 1200px){
+    body{
+        background-color: rgb(196, 8, 102);
+    }
+}
+.pizza {
+    
+    background-image: url('C:\Users\User\Downloads\pizza (1).png');
+   
+}
+
+
+
+
+
+
+
+
+
